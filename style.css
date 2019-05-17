@@ -248,7 +248,7 @@ input:-webkit-autofill:focus {
 **/
 
 .box {
-    padding: 50px 30px;
+    padding: 80px 90px;
     text-align: center;
     -webkit-box-shadow: 0 0 0 0 #ffffff;
     box-shadow: 0 0 0 0 #ffffff;
@@ -272,7 +272,7 @@ input:-webkit-autofill:focus {
 }
 
 .box .box-icon {
-    height: 160px;
+    height: 200px;
     margin-bottom: 20px;
 }
 
@@ -287,6 +287,30 @@ input:-webkit-autofill:focus {
     -webkit-filter: grayscale(0);
     filter: grayscale(0)
 }
+
+/* Main container */
+    .overlay-image {
+    position: relative;
+    width: 100%;
+    }
+    /* Original image */
+    .overlay-image .image {
+    display: block;
+    width: 100%;
+    height: auto;
+    }
+    /* Original text overlay */
+    .overlay-image .text {
+    color: black;
+    font-size: 10px;
+    line-height: 1.5em;
+    text-align: center;
+    position: absolute;
+
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    }
 
 /**
 *Mainmenu-area
